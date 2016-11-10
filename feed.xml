@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nayef Copty</title>
+  <subtitle>Blog &amp; Portfolio</subtitle>
+  <id>http://nayefcopty.com/blog</id>
+  <link href="http://nayefcopty.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2013-11-28T00:00:00-05:00</updated>
+  <author>
+    <name>Nayef Copty</name>
+  </author>
+  <entry>
+    <title>What Bitcoin Fans Are Missing</title>
+    <link rel="alternate" href="/blog/bitcoin-fans-missing/"/>
+    <id>/blog/bitcoin-fans-missing/</id>
+    <published>2013-11-28T00:00:00-05:00</published>
+    <updated>2013-11-28T00:00:00-05:00</updated>
+    <author>
+      <name>Nayef Copty</name>
+    </author>
+    <summary type="html">&lt;p&gt;Bitcoin fans, rightly so, quickly jump to accuse the world's financial system as clunky and obsolete. There is no doubt. NPR ran an a great episode under their Planet Money blog titled &lt;a href="http://www.npr.org/blogs/money/2013/10/04/229224964/episode-489-the-invisible-plumbing-of-our-economy"&gt;The Invisible Plumbing Of Our Economy&lt;/a&gt;, which outlines some very...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Bitcoin fans, rightly so, quickly jump to accuse the world's financial system as clunky and obsolete. There is no doubt. NPR ran an a great episode under their Planet Money blog titled &lt;a href="http://www.npr.org/blogs/money/2013/10/04/229224964/episode-489-the-invisible-plumbing-of-our-economy"&gt;The Invisible Plumbing Of Our Economy&lt;/a&gt;, which outlines some very surprising facts about the ACH system in the U.S.&lt;/p&gt;
+
+&lt;p&gt;I'm going to avoid diving into they typical Bitcoin arguments (real vs. fake value, privacy etc…), and point out one extremely important argument often overlooked by Bitcoin fans.&lt;/p&gt;
+
+&lt;p&gt;Financial systems are un-innovative, slow and clunky not because the people who run them are stupid, but apart from benefiting from the current system and fees, it is due to &lt;strong&gt;risk&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Risk shaped most of the modern financial sector as we know it today. With Bitcoin, how will the government and organisations assess one's credit worthiness and their ability to pay their debt? The whole system will collapse. Risk is very important, and sadly often ignored by those who have not worked extensively in the field. It is the main reason why the financial systems are old and slow, why their procedures are bureaucratic, and why most startups fail in this field. So far, no one has been able to revolutionise the way risk analysis works.&lt;/p&gt;
+
+&lt;p&gt;What we need is a network like &lt;a href="http://dwolla.com/" target="_blank"&gt;Dwolla&lt;/a&gt; or &lt;a href="http://ripple.com/" target="_blank"&gt;Ripple&lt;/a&gt; and not a new currency. Perhaps a virtualised currency run by a central bank or a central authority. The world is practical and pragmatic. Bitcoin is Utopia-like. Looks great on paper, but not in real life.&lt;/p&gt;
+
+&lt;p&gt;Who is willing to take on the risk? No one.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Styling Changes</title>
+    <link rel="alternate" href="/blog/styling-changes/"/>
+    <id>/blog/styling-changes/</id>
+    <published>2013-10-20T00:00:00-04:00</published>
+    <updated>2013-10-20T00:00:00-04:00</updated>
+    <author>
+      <name>Nayef Copty</name>
+    </author>
+    <summary type="html">&lt;p&gt;After studying design for a while &lt;sup&gt;&lt;small&gt;[1]&lt;/small&gt;&lt;/sup&gt;, it was easy to spot some shortcomings of this blog. I've made some styling amendments, which I will share for the benefit of anyone trying to make minor, yet impactful improvements to their website.&lt;/p&gt;
+
+&lt;h4 id="font"&gt;Font&lt;/h4&gt;
+
+&lt;p&gt;Blogs...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;After studying design for a while &lt;sup&gt;&lt;small&gt;[1]&lt;/small&gt;&lt;/sup&gt;, it was easy to spot some shortcomings of this blog. I've made some styling amendments, which I will share for the benefit of anyone trying to make minor, yet impactful improvements to their website.&lt;/p&gt;
+
+&lt;h4 id="font"&gt;Font&lt;/h4&gt;
+
+&lt;p&gt;Blogs need to be optimised for reading on the screen. There's no point on showing off nice fonts, if eyes struggle following through. I've increased the content's width by 100 pixels and increased the font size to 18px. I've also moved away from my old font style, to use a screen-friendly font. Below is my CSS diff.&lt;/p&gt;
+
+&lt;pre class="highlight diff"&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl"&gt;&lt;div class="lineno"&gt;1&lt;/div&gt;&lt;div class="lineno"&gt;2&lt;/div&gt;&lt;div class="lineno"&gt;3&lt;/div&gt;&lt;div class="lineno"&gt;4&lt;/div&gt;&lt;div class="lineno"&gt;5&lt;/div&gt;&lt;div class="lineno"&gt;6&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;span class="gd"&gt;-  font-size: 16px;
+&lt;/span&gt;&lt;span class="gi"&gt;+  font-size: 18px;
+&lt;/span&gt;&lt;span class="gd"&gt;-  font-family: &amp;quot;Droid Sans&amp;quot;, helvetica;
+&lt;/span&gt;&lt;span class="gi"&gt;+  font-family: &amp;quot;Lato&amp;quot;,&amp;quot;Lucida Grande&amp;quot;,&amp;quot;Tahoma&amp;quot;,sans-serif;
+&lt;/span&gt;&lt;span class="gd"&gt;-  max-width: 650px;
+&lt;/span&gt;&lt;span class="gi"&gt;+  max-width: 750px;
+&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt;
+&lt;h4 id="simplifying-urls"&gt;Simplifying URLs&lt;/h4&gt;
+
+&lt;p&gt;All posts URLs was the following format: &lt;code&gt;year-month-day-title&lt;/code&gt;. The date is an irrelevant piece of information to be included in the URL. I've simplified all URLs to include the title only.&lt;/p&gt;
+
+&lt;h4 id="github-style-syntax-highlighting"&gt;Github-Style Syntax Highlighting&lt;/h4&gt;
+
+&lt;p&gt;I've configured my Markdown parser in Middleman to highlight code blocks according to the programming language. Here's a sample in Ruby:&lt;/p&gt;
+
+&lt;pre class="highlight ruby"&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="gutter gl"&gt;&lt;div class="lineno"&gt;1&lt;/div&gt;&lt;div class="lineno"&gt;2&lt;/div&gt;&lt;div class="lineno"&gt;3&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;method&lt;/span&gt;
+   &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;small&gt;
+1. Credit goes to &lt;a href="http://kadavy.net/" target="_blank"&gt;David Kadavy&lt;/a&gt;'s book, Design For Hackers.
+&lt;/small&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How To Bypass Jordan's Internet Censorship</title>
+    <link rel="alternate" href="/blog/bypass-censorship/"/>
+    <id>/blog/bypass-censorship/</id>
+    <published>2013-06-05T00:00:00-04:00</published>
+    <updated>2013-06-05T00:00:00-04:00</updated>
+    <author>
+      <name>Nayef Copty</name>
+    </author>
+    <summary type="html">&lt;p&gt;With the Jordanian government blocking access to around 300 "unlicensed" websites, in a blatant yet pathetic attempt to limit our freedom of speech, we now join other backward countries including Saudi Arabia and North Korea in having a government...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;With the Jordanian government blocking access to around 300 "unlicensed" websites, in a blatant yet pathetic attempt to limit our freedom of speech, we now join other backward countries including Saudi Arabia and North Korea in having a government that tries to regulate the Internet (what a beautiful list to be on, isn't it?). This post will explain the best way that I've found to bypass this censorship.&lt;/p&gt;
+
+&lt;p&gt;To bypass the blockade, I will use Tor. Tor is a free anonymity network that a lot of people use today including Anonymous. The way Tor works is that it redirects all traffic through a voluntarily network, and passes your IP address through each of its relay nodes around the world. You can think of Tor as a huge database of proxies that you can use to hide your identity, or bypass censorship. Tor will not only open up censored websites, but will protect your identity. There are certain ways to use Tor where it can be very difficult to track down the real user.&lt;/p&gt;
+
+&lt;p&gt;Recently, Tor introduced it's own Tor Browser. The browser is a complete bundle that contains Vidalia (Tor's GUI). All you'll need to do is install Tor Browser Bundle, launch it, click "Start", wait a few minutes and you're all set to browse any website you'd like. Please find the following links for Tor browser downloads:&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;All these links are extracted from:
+https://www.torproject.org/download/download&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mac OS X Tor Browser Bundle 32-bit (i386 CPUs):&lt;/strong&gt;&lt;br /&gt; https://www.torproject.org/dist/torbrowser/osx/TorBrowser-2.3.25-8-osx-i386-en-US.zip&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mac OS X Tor Browser Bundle 64-bit (x86_64 CPUs):&lt;/strong&gt;&lt;br /&gt; https://www.torproject.org/dist/torbrowser/osx/TorBrowser-2.3.25-8-osx-x86_64-en-US.zip&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux, BSD &amp;amp; Unix 32-bit:&lt;/strong&gt;&lt;br /&gt; https://www.torproject.org/dist/torbrowser/linux/tor-browser-gnu-linux-i686-2.3.25-8-dev-en-US.tar.gz&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux, BSD &amp;amp; Unix 64-bit (x86_64 CPUs):&lt;/strong&gt;&lt;br /&gt; https://www.torproject.org/dist/torbrowser/linux/tor-browser-gnu-linux-x86_64-2.3.25-8-dev-en-US.tar.gz&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt;&lt;br /&gt; https://www.torproject.org/dist/torbrowser/tor-browser-2.3.25-8_en-US.exe&lt;/p&gt;
+
+&lt;p&gt;If you're unsure of your CPU architecture, use the 32-bit version. If you need help in determining your architecture, you can leave a comment here and I'll try to assist. Typically, 64-bit CPUs are able to run 32-bit software but you will get better performance when you run 64-bit software on 64-bit architecture. Due to Tor's nature, it is known to slow down your connection due to the many nodes your connection will get relayed through. For more information, visit https://www.torproject.org.&lt;/p&gt;
+
+&lt;p&gt;If you're a C developer and would like to work on advancing Tor's capabilities, I encourage you to join it's development project. Tor is a free and an open source project.&lt;/p&gt;
+
+&lt;p&gt;Spread the word!&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>How Can We Transform Amman Into a Tech Hub?</title>
+    <link rel="alternate" href="/blog/transform-amman-tech-hub/"/>
+    <id>/blog/transform-amman-tech-hub/</id>
+    <published>2013-05-27T00:00:00-04:00</published>
+    <updated>2013-05-27T00:00:00-04:00</updated>
+    <author>
+      <name>Nayef Copty</name>
+    </author>
+    <summary type="html">&lt;p&gt;Ever since startups became mainstream, it appears that Amman is joining the craze in trying to become a tech hub. More and more startups are springing up, an "entrepreneur" is suddenly a title &lt;em&gt;(a recipe for disaster)&lt;/em&gt;, and we're witnessing a rise in...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Ever since startups became mainstream, it appears that Amman is joining the craze in trying to become a tech hub. More and more startups are springing up, an "entrepreneur" is suddenly a title &lt;em&gt;(a recipe for disaster)&lt;/em&gt;, and we're witnessing a rise in venture capital firms and perhaps even angel investors.&lt;/p&gt;
+
+&lt;p&gt;After all, Amman is still not a successful tech hub, let alone a mediocre tech hub. We lack many of the components needed to develop a successful ecosystem. After giving it some thought, I'd like to explore how we can make Amman a bustling and vibrant tech hub.&lt;/p&gt;
+
+&lt;p&gt;Today, it is said that Amman powers 75% of the Arabic content online&lt;sup&gt;[1]&lt;/sup&gt;. This inaccurate and wrong statistic is often used by people to inflate our nonexistent position in the tech world. I can only think of one tech startup that has really made it in Amman: Maktoob. The others are still struggling to profit and grow a large, reliable consumer base. After all, if a startup can't monetise, then there's no point in the venture all-together.&lt;/p&gt;
+
+&lt;p&gt;While we're all very proud of Maktoob's accomplishment in Amman, we really need to start working together to produce more "Maktoobs". Even better, we need to produce companies that can sustain themselves and not await an "exit". We can kid ourselves and re-build social networks "with a twist" and hope that some outside investor will come and salvage us, but that merely creates an un-sustainable hype, as opposed to a healthy ecosystem.&lt;/p&gt;
+
+&lt;p&gt;Looking at San Francisco, Silicon Valley and New York's tech scene, it seems that they all have something in common that produced a successful tech scene with really successful tech startups. The ingredients that I found necessary to create a tech hub:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1- Infrastructure&lt;/strong&gt;&lt;br /&gt;
+Startups need a developed basic infrastructure to operate on. While we mostly do have a basic yet frail infrastructure in-place, we need more startups that break down the barriers and build on top of our existing infrastructure (including telecommunication networks, banking and financial networks, roads, other networks etc…). I can think of several ways that are huge opportunities for startups that really want to make a difference.&lt;/p&gt;
+
+&lt;p&gt;Not a single startup has thought of doing something serious in this regard. Most (and not all) of our startups are working on useless products or are becoming online retail stores.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2- Geeks&lt;/strong&gt;&lt;br /&gt;
+We need a lot of geeks. After all, they're the ones running the tech scene.&lt;/p&gt;
+
+&lt;p&gt;Geeks = talent. To get more technical talent in Amman, we'll have to find a way to either attract talent or to create it. We do not have a lot of options in either way.&lt;/p&gt;
+
+&lt;p&gt;High-tech related migrations in the Middle East tend to flow into the Dubai for obvious reasons (or Tel Aviv for many non-Arabs). As a result, we do not have the benefit of being a talent-magnet in the region. Cities that attract talent usually tie into my fourth point: young and hip. Dubai is a good local example. San Francisco is attracting more young talent and fresh grads than Silicon Valley is these days; SF is more urban, fun, young compared to SV. We cannot compete with more attractive cities in the region, and so we obviosuly cannot depend on attracting or bringing in talent from abroad.&lt;/p&gt;
+
+&lt;p&gt;Given the above constraint, we are left with our limited demographic of 6 million people. But how do we create local talent? Universities should play a key part in churning a more talented tech generation. Which brings us to the next point.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3- Universities&lt;/strong&gt;&lt;br /&gt;
+If you look around the world, the biggest tech hubs are centred around tech universities that feed a talent pool that companies feed from and startups blossom from. More often, it is universities in young cities that foster a healthy tech startup ecosystem &lt;em&gt;(see point 5)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Today, our universities are no doubt graduating mediocre, if not poor, talent. Most tech oriented graduates are no more than social media "experts". A final design project for a Computer Science degree is often a website&lt;sup&gt;[2]&lt;/sup&gt;, as opposed to an almost-complete operating system in the U.S.&lt;/p&gt;
+
+&lt;p&gt;We can take a look at our next door neighbour of 7 million people. Putting politics aside, Israel has successfully created an advanced high tech economy. Israel built a stable economy with a strong backbone, relying initially on primary and secondary sectors. As a result, Israel has developed over time a healthy work ethic environment and an efficient working culture similar to more advanced economies. As it's economy grew stronger and followed the natural economic growth evolution, it started expanding into the tertiary sector.&lt;/p&gt;
+
+&lt;p&gt;All along, its high tech industry was made a priority across all stages. Their government is a big high tech supporter (mostly for defence and intelligence). Israel's Technion - Israel Institute of Technology created the necessary infrastructure for its high tech industry and continues to produce a constant flow of high tech talent. Proud of their language &lt;em&gt;(unlike us)&lt;/em&gt;, the Technion's primary language of instruction is in Hebrew. The university has translated all mathematical, scientific and technical vocabulary into Hebrew &lt;em&gt;(not الديناميكا الهوائية sort of translation)&lt;/em&gt;. They managed over the years to develop one of the top technical schools in the world that supports a strong high tech industry. Their industry is so advanced that Intel and Apple have semiconductor design (and not production) plants in Israel.&lt;/p&gt;
+
+&lt;p&gt;I'm not entirely sure how we'll be able to mimic Israel's path given our economy is considered almost nonexistent compared to Israel's &lt;em&gt;(their high tech industry GDP is more than 70% of our entire GDP!)&lt;/em&gt;, and our primary and secondary sectors are too weak to have any advanced economies build on them. I'll leave that to the economists, but it's never too late to start. Israel's Technion was founded in 1912 as a Jewish technical university, long before Israel exited and when the majority of Palestine's population were Arab.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4- Investors and Mentors&lt;/strong&gt;&lt;br /&gt;
+You'll need a lot of savvy wealthy investors that had particularly successful tech careers, and can mentor young techies.&lt;/p&gt;
+
+&lt;p&gt;We're having more and more venture capital funds in the country. Although not a bad thing, it may be a little too early for VCs. We need more angel investors who have had particularly successful tech careers, so that they can mentor young techies. Most angel investors are really not technical at all. I can barely count older techie investors/mentors. This can be blamed on technology not really being popular ten or twenty years ago.&lt;/p&gt;
+
+&lt;p&gt;The main problem with most venture capitals in Amman right now is that they do not have proper mentorship. Many of who are running venture capitals may have impressive backgrounds and degrees, but are mostly business and finance people. These experiences are not useful for any early-stage tech startup. We need technical mentors, who were/are still geeks that understand tech startups and technologies well. Not an average tech-savvy user.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5- Young/hip city&lt;/strong&gt;&lt;br /&gt;
+Another key factor is having a young and hip city to attract geeks and investors. While there are more attractive options in the region that we really cannot compete with, it's wiser to focus on our current demographic and try to create a more technically educated generation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6- Culture of Openness&lt;/strong&gt;&lt;br /&gt;
+An open culture is necessary for a hub to thrive. The Bay Area is particularly good at this. People openly discuss their ideas, mentors and investors are happy to help, and most importantly, no one is too paranoid about their work. As a result, open discussion with different parties often help startups a great deal. New York City is still a little behind in this (in a sense where people ask others to sign bullshit NDAs more often). In Jordan, we're pretty much too uptight about our so-called "ideas".&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+TLDR; To sum up, here's what we need:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A top-notch technical university or at least high quality courses/classes offered by experts. We need a university that supports research into unsolved Computer Science problems.&lt;/li&gt;
+  &lt;li&gt;Mentors that can guide and invest in our young techies.&lt;/li&gt;
+  &lt;li&gt;A drastic move from our current "wannapreneur" culture into real tech development and focusing on real products doing real business. Do business the old-school way as opposed to the XXX (insert any meaningless phrase here such as scale/pivot/exit) way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[1] I could not find a reliable source to verify this claim. Google already verified that most Arabic content online is inaccurate. If the statistic was true, we should not really be proud about this. Source: http://mediame.com/news/digital_media/google_says_online_arabic_content_lacks_accuracy_quality&lt;/p&gt;
+
+&lt;p&gt;[2] I've worked with many Computer Science graduates from Jordanian universities. I used to ask them what courses they did, and what projects they worked on. A common final design course often revolves around developing a simple ASP (who uses ASP anyway?) website connected to a database.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
