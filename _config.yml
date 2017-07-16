@@ -1,0 +1,18 @@
+# Site settings
+title: Nayef Copty
+email: nrcopty@gmail.com
+description: Nayef Copty
+url: "http://www.nayefcopty.com"
+github_username:  nayefc
+linkedin_username: nayefc
+
+# Build settings
+markdown: kramdown
+
+navigation:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
