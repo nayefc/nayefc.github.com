@@ -10,7 +10,7 @@ Previously:
 - Software Engineer at <a href="http://appnexus.com/" target="_blank">AppNexus</a>.
 
 Skills Summary:
-- Main languages: Modern C++ (11/1417), Python, C, Emacs Lisp.
+- Main languages: Modern C++ (11/14/17), Python, C, Emacs Lisp.
 - Other languages: SQL, Bash, Golang, Java, Ruby, Objective-C.
 - Software Design & Architecture.
 - Asynchronous event loop development in C++ and Python.
