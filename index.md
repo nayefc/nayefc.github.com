@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Currently at <a href="http://citadel.com/" target="_blank"Citadel</a>
+Currently at <a href="http://citadel.com/" target="_blank">Citadel</a>
 
 Previously:
 - Systems Developer at <a href="http://hudson-trading.com/" target="_blank">Hudson River Trading</a>.
