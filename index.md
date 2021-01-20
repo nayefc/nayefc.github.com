@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Currently Quantitative Trader at <a href="https://www.gsr.io/" target="_blank">GSR</a>.
+Currently Quantitative Trader, VP at <a href="https://www.gsr.io/" target="_blank">GSR</a>.
 
 Previously:
 - Electronic Trading Software Engineer at <a href="https://citadel.com/" target="_blank">Citadel</a>.
@@ -11,7 +11,8 @@ Previously:
 
 Skills:
 - Main languages: C++ (11/14/17), C, Python.
-- Trading: Market making, order execution algorithms and routing, alpha signals research and development.
+- Market Making, Options Market Making, Order Execution Algorithms and Routing.
+- Alpha signals research, trading and development.
 - Low latency trading systems and networking.
 - Other languages: SQL, Bash, Golang, Java, Ruby, Objective-C, Emacs Lisp.
 - Software Design & Architecture.
